@@ -40,3 +40,8 @@ body {
 .container span:hover a {
     color: #fff;
 }
+
+.wmn-64 {
+    height: 50px;
+    padding-right: 4%;
+}

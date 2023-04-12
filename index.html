@@ -26,5 +26,27 @@
                 <span>STUDENT'S INFO</span>
                 <span>CHANGE PASSWORD</span>
         </div>
+        <div action="#" class="cont-grid">
+            <form class="content-flex" id="image">
+                <img src="image/av_256.png" alt="av_256">
+                <button class="smll-btn" type="submit" form="image">Choose photo</button>
+            </form>
+            <form class="content-flex" id="name">
+                <input type="text" placeholder="First name" required maxlength="25" pattern="[A-Za-zА-Яа-яЁё]">
+                <input type="text" placeholder="Last name" required maxlength="25" pattern="[A-Za-zА-Яа-яЁё]">
+                <input type="email" placeholder="Email" required maxlength="20" pattern="[A-Za-zА-Яа-яЁё]">
+                <input type="text" placeholder="Phone numder" required maxlength="12" pattern="[0-9]">
+                <input type="text" placeholder="Address" required maxlength="20" pattern="[A-Za-zА-Яа-яЁё] [0-9]">
+                <input type="text" placeholder="FB link">
+                <button class="big-btn" type="submit" form="name">Save changes</button>
+            </form>
+            <form class="content-flex" id="password">
+                <input type="password" placeholder="Old password" required maxlength="20" pattern="[A-Za-zА-Яа-яЁё] [0-9]">
+                <input type="password" placeholder="New password" required maxlength="20" pattern="[A-Za-zА-Яа-яЁё] [0-9]">
+                <input type="password" placeholder="Repeat password" required maxlength="20" pattern="[A-Za-zА-Яа-яЁё] [0-9]">
+                <button class="big-btn" type="submit" form="password">Change password</button>
+            </form>
+        </div>
+    </main>
 </body>
 </html>
