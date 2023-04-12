@@ -11,3 +11,32 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
+.man-comp {
+    height: 50px;
+    margin-left: 3%;
+}
+
+.flex-list {
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+}
+
+.container span {
+    display: inline-block;
+    padding-left: 2%;
+    padding-left: 7%;
+    margin-left: 1%;
+}
+.container span:last-child a {
+    color: #fff;
+}
+
+.container span a {
+    text-decoration: none;
+    color: #7593aa;
+}
+.container span:hover a {
+    color: #fff;
+}
