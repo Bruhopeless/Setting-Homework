@@ -45,3 +45,33 @@ body {
     height: 50px;
     padding-right: 4%;
 }
+
+.main-title {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.cont {
+    background-color: #cce5ff;
+    width: 95%;
+    height: 60px;
+    color: #2c4c83;
+    border: 1px solid #cce5ff;
+    border-radius: 5px;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.cont span {
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+.cont-grid {
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+}
+.cont-grid img {
+    width: 200px;
+    margin-left: 20%;
+}
