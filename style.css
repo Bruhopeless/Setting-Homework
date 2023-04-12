@@ -107,3 +107,20 @@ input {
     background-color: #a8b4bf;
     color: #fff;
 }
+
+.big-btn {
+    background-color: #6c757d;
+    border: none;
+    border-radius: 5px;
+    width: 96%;
+    height: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 3%;
+}
+.big-btn:hover {
+    cursor: pointer;
+    background-color: #a8b4bf;
+    color: #fff;
+}
