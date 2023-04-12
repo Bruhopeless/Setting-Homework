@@ -75,3 +75,35 @@ body {
     width: 200px;
     margin-left: 20%;
 }
+
+.content-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 35px;
+    margin-top: 3%;
+    width: 94%;
+    border: 2px solid #e1e4e8;
+}
+::placeholder {
+    padding-left: 2%;
+}
+
+.smll-btn {
+    background-color: #6c757d;
+    border: none;
+    border-radius: 5px;
+    width: 67%;
+    height: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 18%;
+}
+.smll-btn:hover {
+    cursor: pointer;
+    background-color: #a8b4bf;
+    color: #fff;
+}
